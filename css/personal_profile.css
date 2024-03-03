@@ -1,0 +1,272 @@
+#body {
+	margin: 0 auto;
+	min-height: 1100px;
+	overflow: hidden;
+	padding: 20px 0;
+	width: 1260px;
+}
+
+/* 左侧基本信息（首） */
+#body .sidebar {
+	background: rgba(255, 204, 102, 0.5);
+	float: left;
+	margin: 0 10px 0 20px;
+	padding: 0 0 5px;
+	width: 300px;
+}
+
+#body .sidebar h3 {
+	border-bottom: 2px solid #ffe600;
+	color: #663300;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 3px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#body .sidebar h4 {
+	color: #663300;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 0 20px;
+	text-transform: uppercase;
+}
+
+#body .sidebar ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+#body .sidebar ul li {
+	color: #767676;
+	font-size: 17px;
+	list-style: none;
+	line-height: 15px;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#body .sidebar ul li a {
+	color: #ffe600;
+	text-decoration: none;
+}
+
+/* 左侧基本信息（尾） */
+/* 右侧内容（首） */
+#body .content {
+	float: left;
+	margin: 0 10px 0 20px;
+	padding: 0;
+	width: 900px;
+}
+
+#body .content>img {
+	border: 1px solid #ffe600;
+	display: block;
+}
+
+#body .content h2 {
+	color: #663300;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0;
+	text-transform: capitalize;
+}
+
+#body .content h3 {
+	color: #767676;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#body .content p {
+	color: #000000;
+	font-size: 20px;
+	line-height: 32px;
+	margin: 0;
+	padding: 10px 0;
+	padding-left: 30px;
+}
+
+#body>ul {
+	margin: 0;
+	padding: 0;
+}
+
+#body>ul>li {
+	border-top: 2px solid #ffe600;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 40px 20px 20px;
+}
+
+#body>ul>li:first-child {
+	border: 0;
+	padding: 0 20px 20px;
+}
+
+#body ul li .figure {
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+	width: 210px;
+}
+
+#body ul li .figure span {
+	color: #94acb3;
+	font-size: 16px;
+	display: block;
+	margin: 0;
+	padding: 0 0 12px;
+	text-transform: capitalize;
+}
+
+#body ul li .figure img {
+	border: 1px solid #fff;
+	display: block;
+}
+
+#body ul li .article {
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 690px;
+}
+
+#body ul li .article p {
+	clear: both;
+	color: #767676;
+	line-height: 30px;
+	margin: 0;
+	padding: 20px 0 10px;
+}
+
+#body ul li .article p a {
+	color: #767676;
+	text-decoration: underline;
+}
+
+#body ul li .article p a:hover {
+	color: #333;
+}
+
+#body ul li .article ul {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#body ul li .article ul li {
+	color: #767676;
+	display: block;
+	line-height: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	width: 230px;
+}
+
+#body ul li .article ul li a {
+	color: #767676;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body ul li .article ul li a:hover {
+	color: #386370;
+}
+
+#body .content .section {
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0 0;
+}
+
+#body .content .section div {
+	float: left;
+	margin: 0 0 0 24px;
+	padding: 0;
+	width: 210px;
+}
+
+#body .content .section div span {
+	background: #ffe600;
+	color: #767676;
+	display: block;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	text-transform: uppercase;
+}
+
+#body .content .section div:first-child {
+	margin: 0;
+}
+
+#body .content .section div ul {
+	margin: 0;
+	padding: 10px 0 10px 10px;
+}
+
+#body .content .section div ul.last {
+	border-top: 2px solid #ffe600;
+}
+
+#body .content .section div ul li {
+	color: #767676;
+	line-height: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0;
+	text-transform: uppercase;
+}
+
+#body .content .section div ul ul {
+	padding: 0;
+}
+
+#body .content .section div ul ul li {
+	text-transform: capitalize;
+	padding: 0;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tab-button {
+	padding: 5px 20px;
+	background-color: rgba(255, 255, 204, 0.5);
+	border: none;
+	border-radius: 4px;
+	margin-right: 10px;
+	cursor: pointer;
+	flex-grow: 1;
+}
+
+.tab-button:hover {
+	background-color: rgba(255, 204, 102, 0.5);
+}
+
+.tab-button.selected {
+	background-color: rgba(255, 204, 102, 1);
+}
+
+.tab-content {
+	display: none;
+}
+
+/* 右侧内容（首） */

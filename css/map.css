@@ -1,0 +1,116 @@
+/* 背景 */
+body {
+    background-image: url('../images/6.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* 首行标签 */
+.title {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    line-height: 10vh;
+}
+
+.title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 地图框 */
+.box {
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    left: 5%;
+    top: 10%;
+    background-color: rgba(24, 27, 52, 0.5);
+}
+
+/* 地图容器 */
+.chart {
+    position: relative;
+    height: 90%;
+    top: 10%;
+}
+
+/* 返回按钮 */
+.backBtn {
+    position: absolute;
+    top: 0;
+    background-color: #00C298;
+    border: 0;
+    color: #fff;
+    height: 27px;
+    font-family: Microsoft Yahei;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* 模态框样式 */
+.modal {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    left: 5%;
+    top: 10%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    text-align: center;
+    background-color: #1dc199;
+    color: #fff;
+    padding: 10px;
+}
+
+.modal-header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.modal-body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+
+.modal-body h3 {
+    color: #767676;
+    font-size: 32px;
+    margin: 0;
+}
+
+.modal-body img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
